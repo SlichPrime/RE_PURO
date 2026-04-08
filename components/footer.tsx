@@ -1,7 +1,11 @@
 export default function Footer() {
   return (
-    <footer className="bg-black text-white text-center p-4 mt-10">
-      <p>© 2026 Re: Puro Coffee</p>
-    </footer>
+    <div className="bg-[#1f3f6b] text-white text-center p-6">
+      <h2>RE:PURO</h2>
+      <button className="bg-blue-400 px-4 py-2 rounded my-3">
+        Contact Us
+      </button>
+      <p className="text-xs">© 2026</p>
+    </div>
   );
 }
